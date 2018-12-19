@@ -1,0 +1,106 @@
+#main {
+	background: linear-gradient(rgba(255, 255, 255, .7), rgba(255, 255, 255, .7)), url(images/apple-devices-books-business-572056.jpg);
+    background-repeat: no-repeat;
+	background-size:cover;
+
+	 
+   
+}
+
+
+/*
+#main.clicked {
+    background-image: url();
+    background-color: #0000;
+}
+*/
+
+.linkClicked {
+    background-color: #ccc;
+}
+
+.center {
+    position: absolute;
+    left: 500px;
+    top: 150px;
+}
+
+.left {
+    padding-top: 10%;
+    height: 100vh;
+    background: #001a35;
+    white-space: nowrap;
+    width: 53px;
+    transition: width 1s;
+    font-size: 18px;
+}
+
+.left:hover {
+    width: 250px;
+}
+
+.item:hover {
+    background-color: #ccc;
+}
+
+.item {
+    overflow: hidden;
+    color: #fff;
+}
+
+.title {
+    background-color: #eee;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px;
+    box-sizing: border-box;
+}
+
+
+.details {
+    margin-left: 15%;
+    top: 100px;
+    position: absolute;
+    width: 60%;
+    text-align: center
+}
+@keyframes slide {
+  0% {
+    left: 0;
+    top: 0;
+  }
+    25% {
+    left: 122px;
+    top: 100px;
+  }
+  50% {
+    left: 244px;
+    top: 0;
+  }
+  75% {
+    left: 488px;
+    top: 100px;
+  }
+  100% {
+    left: 800px;
+    top: 0;
+  }
+}
+.stage {
+  border-radius: 6px;
+  height: 150px;
+  position: relative;
+}
+.stage:hover .ball {
+  animation-name: slide;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+  animation-delay: .5s;
+}
+.ball {
+  position: absolute;
+}
+
+.slide:hover {
+    color: #4c6ef5;
+}
